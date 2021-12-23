@@ -15,7 +15,7 @@ const ScoreCard = ({ id, playedAt, totalScore, userId, userName, fetchUrl }) => 
         </div>
         <div>
           <Link href={`/golfers/${userId}`}>
-            <a className="underline text-gray-700">{`${userName}`}</a>
+            <a className="underline text-gray-700">{userName}</a>
           </Link>
           {` posted a score of ${totalScore}`}
         </div>
